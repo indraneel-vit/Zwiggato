@@ -1,0 +1,78 @@
+.form-control{
+        size: 15ch;
+        display: inline;
+    }
+    .divider:after,
+    .divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+    }
+    #logo{
+        width: 50px;
+    }
+    .SignInBtn{
+        display: flex;
+        justify-content: center;
+    }
+    .img-responsive{
+        width: 55px;
+    }
+    .card-img-tiles {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        position: relative;
+        background-color: #fff;
+        /* z-index: 5 */
+    }
+    #cart_btn{
+        margin-left: 388px;
+    }
+    .Main-navbar{
+        position: fixed; /* Set the navbar to fixed position */
+      top: 0; /* Position the navbar at the top of the page */
+      width: 100%;
+      z-index: 1;
+    }
+    #product-tiles{
+        z-index: -1;
+    }
+    #carrot-image-tile{
+        /* height: 50px; */
+    }
+    .card-img-tiles .main-img>img,
+    .card-img-tiles .thumblist>img {
+        display: block;
+        width: 100%
+    }
+    .main-img{
+        /* margin: 10px;  */
+        width: 50px;
+        /* height: 40px; */
+        
+    }
+    .card-img-tiles .main-img {
+        width: 100%;
+        padding-right: .375rem;
+        border-radius: 5px;
+        /* height: 70px; */
+    }
+    
+    .card-img-tiles .thumblist {
+        width: 33%;
+        padding-left: .375rem
+    }
+    
+    .card-img-tiles .thumblist>img {
+        margin-bottom: .75rem
+    }
+    
+    .card-img-tiles .thumblist>img:last-child {
+        margin-bottom: 0
+    }
+    
+    .mb-grid-gutter {
+        margin-bottom: 30px !important;
+    }
