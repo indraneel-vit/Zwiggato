@@ -25,7 +25,6 @@
         display: flex;
         position: relative;
         background-color: #fff;
-        /* z-index: 5 */
     }
     #cart_btn{
         margin-left: 388px;
@@ -39,25 +38,20 @@
     #product-tiles{
         z-index: -1;
     }
-    #carrot-image-tile{
-        /* height: 50px; */
-    }
     .card-img-tiles .main-img>img,
     .card-img-tiles .thumblist>img {
         display: block;
         width: 100%
     }
     .main-img{
-        /* margin: 10px;  */
         width: 50px;
-        /* height: 40px; */
+        
         
     }
     .card-img-tiles .main-img {
         width: 100%;
         padding-right: .375rem;
         border-radius: 5px;
-        /* height: 70px; */
     }
     
     .card-img-tiles .thumblist {
